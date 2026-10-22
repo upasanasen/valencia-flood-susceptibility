@@ -1,0 +1,22 @@
+# data is fetched by scripts/01_fetch_data.py — never committed
+data/raw/
+data/processed/
+data/interim/
+
+# rasters anywhere
+*.tif
+*.tiff
+*.asc
+
+# QGIS temp/backup
+*.qgz~
+*.qgs~
+.*.swp
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store

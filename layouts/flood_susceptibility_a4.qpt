@@ -1,0 +1,27 @@
+<Layout name="flood_susceptibility_a4" units="mm" worldFileMap="" printResolution="300">
+  <Snapper tolerance="5" enabled="1" snapToGrid="0" snapToItems="1" snapToGuides="1"/>
+  <Grid resolution="10" resUnits="mm" offsetX="0" offsetY="0" offsetUnits="mm"/>
+  <PageCollection>
+    <LayoutItem type="65638" position="0,0,mm" size="210,297,mm" blendMode="0" opacity="1" id="" frame="false">
+      <FrameColor red="0" blue="0" green="0" alpha="255"/>
+      <BackgroundColor red="255" blue="255" green="255" alpha="255"/>
+    </LayoutItem>
+  </PageCollection>
+  <LayoutItem type="65639" id="main map" position="10,28,mm" positionOnPage="10,28,mm" size="190,230,mm" frame="true" background="false" followPreset="false" keepLayerSet="false" drawCanvasItems="true" mapRotation="0">
+    <Extent xmin="707000" ymin="4352000" xmax="733000" ymax="4382000"/>
+    <FrameSymbolColor red="0" green="0" blue="0" alpha="255"/>
+  </LayoutItem>
+  <LayoutItem type="65641" id="title" position="10,8,mm" positionOnPage="10,8,mm" size="190,14,mm" frame="false" background="false" labelText="Flood susceptibility — Valencia region (GIS–AHP)" halign="4" valign="128" marginX="1" marginY="1">
+    <LabelFont description=".AppleSystemUIFont,16,-1,5,75,0,0,0,0,0,Bold" style="Bold"/>
+    <FontColor red="0" green="0" blue="0" alpha="255"/>
+  </LayoutItem>
+  <LayoutItem type="65642" id="legend" position="150,210,mm" positionOnPage="150,210,mm" size="48,45,mm" frame="true" background="true" title="Susceptibility" legendFilterByMap="1" columnCount="1">
+    <FrameSymbolColor red="120" green="120" blue="120" alpha="255"/>
+    <BackgroundColor red="255" green="255" blue="255" alpha="220"/>
+  </LayoutItem>
+  <LayoutItem type="65646" id="scalebar" position="10,262,mm" positionOnPage="10,262,mm" size="60,8,mm" frame="false" background="false" units="0" segments="4" style="Single Box" unitLabel="km" unitType="1"/>
+  <LayoutItem type="65641" id="credits" position="10,272,mm" positionOnPage="10,272,mm" size="190,18,mm" frame="false" background="false" labelText="Method: GIS–AHP after Land 2026, 15(6), 1089 (CC BY). Data: Copernicus DEM GLO-30, ESA WorldCover 2021, Sentinel-2 L2A, OpenStreetMap (ODbL), Copernicus EMS EMSR773. CRS: ETRS89 / UTM 30N." halign="1" valign="32" marginX="1" marginY="1">
+    <LabelFont description=".AppleSystemUIFont,7,-1,5,50,0,0,0,0,0" style=""/>
+    <FontColor red="60" green="60" blue="60" alpha="255"/>
+  </LayoutItem>
+</Layout>

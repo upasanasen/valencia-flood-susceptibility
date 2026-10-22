@@ -1,0 +1,11 @@
+numpy
+scipy
+rasterio
+geopandas
+shapely
+pyproj
+pystac-client
+pysheds
+jenkspy
+scikit-learn
+matplotlib

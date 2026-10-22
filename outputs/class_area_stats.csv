@@ -1,0 +1,6 @@
+class,name,area_km2,share_of_aoi,flooded_km2,share_of_flood,flood_rate_in_class
+1,Very Low,85.81,0.1358,0.58,0.0047,0.0067
+2,Low,150.17,0.2376,8.17,0.066,0.0544
+3,Moderate,181.18,0.2866,31.36,0.2535,0.1731
+4,High,144.22,0.2282,47.12,0.3808,0.3267
+5,Very High,70.69,0.1118,36.5,0.295,0.5164

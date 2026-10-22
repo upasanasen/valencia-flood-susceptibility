@@ -1,0 +1,161 @@
+{
+  "solved_weights": {
+    "twi": 0.264,
+    "slope": 0.171,
+    "lulc": 0.127,
+    "drainage_density": 0.14,
+    "ndvi": 0.071,
+    "dist_streams": 0.089,
+    "ndbi": 0.053,
+    "dist_roads": 0.033,
+    "dem": 0.032,
+    "aspect": 0.019
+  },
+  "published_weights": {
+    "twi": 0.259,
+    "slope": 0.169,
+    "drainage_density": 0.14,
+    "lulc": 0.125,
+    "dist_streams": 0.089,
+    "ndvi": 0.071,
+    "ndbi": 0.056,
+    "dist_roads": 0.035,
+    "dem": 0.034,
+    "aspect": 0.02
+  },
+  "lambda_max": 10.9043,
+  "CI": 0.1005,
+  "CR": 0.0674,
+  "published_CR": 0.098,
+  "reclassification": {
+    "twi": {
+      "scheme": "jenks5",
+      "breaks": [
+        4.37475,
+        7.80102,
+        9.75479,
+        12.00114,
+        14.83592,
+        22.58051
+      ],
+      "direction": 1
+    },
+    "slope": {
+      "scheme": "jenks5",
+      "breaks": [
+        0.0,
+        1.79198,
+        4.58279,
+        9.10013,
+        16.48869,
+        43.92875
+      ],
+      "direction": -1
+    },
+    "lulc": {
+      "scheme": "WorldCover ordinal mapping",
+      "mapping": {
+        "80": 5,
+        "90": 5,
+        "95": 5,
+        "50": 4,
+        "60": 3,
+        "40": 2,
+        "10": 1,
+        "20": 1,
+        "30": 1,
+        "100": 1
+      }
+    },
+    "drainage_density": {
+      "scheme": "jenks5",
+      "breaks": [
+        0.0,
+        0.00069,
+        0.00193,
+        0.0037,
+        0.00613,
+        0.01139
+      ],
+      "direction": 1
+    },
+    "ndvi": {
+      "scheme": "jenks5",
+      "breaks": [
+        -0.98659,
+        -0.49599,
+        -0.04308,
+        0.21804,
+        0.45615,
+        0.94001
+      ],
+      "direction": -1
+    },
+    "dist_streams": {
+      "scheme": "jenks5",
+      "breaks": [
+        0.0,
+        318.90439,
+        774.20929,
+        1361.94714,
+        2181.97168,
+        3895.95947
+      ],
+      "direction": -1
+    },
+    "ndbi": {
+      "scheme": "jenks5",
+      "breaks": [
+        -0.86847,
+        -0.44872,
+        -0.07214,
+        0.0891,
+        0.48253,
+        0.98007
+      ],
+      "direction": 1
+    },
+    "dist_roads": {
+      "scheme": "jenks5",
+      "breaks": [
+        0.0,
+        258.06976,
+        768.96033,
+        1481.89062,
+        2329.39917,
+        3542.66846
+      ],
+      "direction": -1
+    },
+    "dem": {
+      "scheme": "jenks5",
+      "breaks": [
+        -4.15008,
+        30.81676,
+        75.72459,
+        128.90685,
+        195.73488,
+        355.33655
+      ],
+      "direction": -1
+    },
+    "aspect": {
+      "scheme": "paper Table A2 ordinal (flat=3)"
+    }
+  },
+  "index_breaks": [
+    1.1033,
+    2.1834,
+    2.6636,
+    3.0987,
+    3.5591,
+    4.6553
+  ],
+  "class_shares": {
+    "1": 0.136,
+    "2": 0.238,
+    "3": 0.287,
+    "4": 0.228,
+    "5": 0.112
+  }
+}
